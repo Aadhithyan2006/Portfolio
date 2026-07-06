@@ -262,6 +262,7 @@
   }
   .hero-avatar-inner img {
     width: 100%; height: 100%; object-fit: cover;
+    object-position: center 15%;
     filter: grayscale(20%) contrast(1.1);
   }
   .hero-avatar-inner::after {
@@ -1053,7 +1054,7 @@ function Hero() {
               <span className="orbit-dot"></span>
               <span className="orbit-dot"></span>
               <div className="hero-avatar-inner">
-                <img src="https://picsum.photos/seed/aadhi-hero-face/400/400.jpg" alt="Aadhithyan" />
+                <img src="photo.png" alt="Aadhithyan" />
               </div>
             </div>
             <div className="float-badge" style={{ top: '8%', right: '-5%' }}>
@@ -1101,7 +1102,7 @@ function About() {
         <div className="about-grid">
           <Reveal>
             <div className="about-image-wrap">
-              <img src="https://picsum.photos/seed/aadhi-about-photo/600/800.jpg" alt="About" />
+              <img src="photo.png" alt="About" />
               <div className="about-stats-row">
                 <div className="about-stat">
                   <div className="num"><Counter end={2} suffix="+" /></div>
